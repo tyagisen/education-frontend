@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@600;700&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #fddcc356;
+}
+.main-part{
+    width:75%;
+    margin:0 auto;
+    /* height:300px; */
+    
+}
+
+.main-part .basic{
+    margin-top: 50px;
+    display: flex;
+    /* background-color: yellow; */
+}
+.basic .basic-sub-right-part{
+    width: 40%;
+    margin:0 0 20px 40px;
+    box-shadow: 0 2px 8px #00000020;
+    padding:40px;
+    height: 600px;
+    
+}
+.basic .basic-sub-left-part{
+    width:60%;
+    height: 600px;
+}
+.basic .basic-sub-left-part img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+.my-back-btn{
+    margin-bottom: 25px;
+}
+.my-back-btn i{
+    margin-right: 10px;
+}
+.basic-sub-right-part a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.pack-name .sub-time{
+    color: gray;
+    margin-bottom: 0;
+}
+.pack-name .pack-name{
+    font-size: 25px;
+    font-weight: bold;
+    /* margin-bottom: 0; */
+}
+.my-package-features h3{
+    margin-top:10px;
+    font-weight: bold;
+}
+.checked {
+    color: orange;
+    
+}
+.rating span{
+    font-size:12px;
+}
+.review-num{
+    font-size: 12px;
+    font-weight: 1000;
+}
+.my-package-features ol li{
+    font-weight: 400;
+    margin-top: 10px;
+    color: gray;
+
+}
+.buy-bar{
+    width: 1000px; 
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left:15%;
+    background-color: white;
+    box-shadow: 0 2px 8px #00000030;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* z-index: 1000; */
+}
+.buy-pack-image img{
+    width:60px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.basic-pack-name p{
+    text-align: center;
+    color: gray;
+}

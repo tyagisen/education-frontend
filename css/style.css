@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@600;700&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* Styling for left part of navigation */
+.logo a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+/* Styling of whole nav bar */
+nav {
+  /* background-color: blanchedalmond !important; */
+  height: 70px;
+  margin-bottom: 70px;
+  position: relative;
+  /* background-color: red; */
+}
+/* style to place navbar to center */
+.container-fluid {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-fluid  .logo{
+  margin-left: 190px;
+}
+.container-fluid .my-navs{
+  margin-right: 230px;
+}
+.logo {
+  align-self: center;
+}
+.logo a {
+  font-size: 16px;
+  font-weight: 530;
+  /* letter-spacing: 1px; */
+}
+.logo a i {
+  size: 30px;
+}
+/* styling right part nav unorderd list  */
+.my-navs ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Child Desc part */
+.child-desc{
+  display: flex;
+  justify-content: space-around;
+  
+  /* background-color: rebeccapurple; */
+}
+.left-part-content{
+  margin-top: 120px;
+}
+
+/* removing default decoration of link */
+.my-navs ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+/* styling of moon icon */
+.my-navs ul li a i {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  /* border: black; */
+}
+/* Styling of Highlight */
+.highlight p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.desc p{
+  margin-top:50px;
+}
+/* Styling of Contact Button */
+.contact-btn button {
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 6px 20px;
+  font-weight: bold;
+  background-color: rgb(70, 67, 67);
+}
+
+.right-part-content img {
+  height: 300px;
+  width: 400px;
+  object-fit: fill;
+  border-radius: 50%;
+  margin-top:50px;
+  margin-right:70px;
+}
+.people{
+  margin-top: 100px;
+  position: relative;
+}
+.people .date-joined .about{
+  font-size: 12px;
+}
+.date-joined, .about-desc{
+  width: 30%;
+  margin: 0 auto;
+}
+.date-joined p, h3{
+  text-align: center;
+}
+.date-joined h3{
+  font-weight: 600;
+  font-size: 25px;;
+}
+.about-desc p{
+  text-align: center;
+}
+.dates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.black-block .dates{
+  width:60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  width: 100%;
+  height: 45px;
+  position:relative;
+  padding-bottom: 100px;
+}
+
+.black-block p{
+  color: white;
+}
+.about-content{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.dates, .about-right-child, .about-left-child{
+  margin-right:50px;  
+  margin-left: 50px;
+}
+.child{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 3px;
+}
+.age{
+  font-size: 13px;
+  margin-left: 10px;
+}
+.name {
+  font-size: 14px;
+  text-align: center;
+  color:rgb(136, 130, 130);
+
+}
+.ramesh-as-child, .suresh-as-child{
+  margin-bottom: 50px;
+}
+.form-to-save{
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom: 50px;
+}
+.map-part{
+  margin-right: 90px;
+}
+.name-email-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+::placeholder{
+  color: rgb(34, 33, 32);
+  font-weight: bold;
+  
+}
+input, textarea{
+  border-radius: 5px;
+  border:none;
+  box-shadow: 0 1px 8px #00000023;
+  padding:8px 10px; 
+}
+.form-part{
+  margin-top:40px;
+}
+input{
+  width: 200px;
+}
+.form-title{
+  font-weight: bold;
+}
+.send-btn .send{
+  border:none;
+  border-radius: 50px;
+  background-color: darkgoldenrod;
+  color:white;
+  font-weight: 600;
+  padding: 7px 45px;
+  margin-top:25px;
+  display: flex;
+  
+}
+.about-me{
+  background-color: rgb(37, 35, 35);
+  display: flex;
+  color:white;
+  justify-content: space-around;
+  min-height: 120px;
+  align-items: center;
+}
+.my-detail h2{
+  font-weight: bold;
+}
+.detail{
+  margin-bottom: 8px;
+}
+.my-detail-icons{
+  color:white;
+  
+}
+.copyright-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.copyright-section p{
+  color: gray;
+}
+.copyright-section span{
+  color: rgb(31, 31, 150);
+}
